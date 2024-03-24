@@ -1,0 +1,38 @@
+{
+  "name": "react-component-library",
+  "version": "1.0.0",
+  "description": "A collection of React components sharable",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mianshah/react-components-library.git"
+  },
+  "author": "Mian S",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mianshah/react-components-library/issues"
+  },
+  "homepage": "https://github.com/mianshah/react-components-library#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "yarn": "^1.22.22"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.3",
+    "@babel/preset-react": "^7.24.1",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-url": "^8.0.2",
+    "babel-loader": "^9.1.3",
+    "rimraf": "^5.0.5",
+    "rollup": "^4.13.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2"
+  }
+}
